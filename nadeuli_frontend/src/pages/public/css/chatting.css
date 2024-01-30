@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+html, body{
+    height: 100vh;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.userInfo{
+    flex :0.3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-bottom: 1px solid #aaaaaa;
+    font-weight: bold; 
+}
+
+.arrow{
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+}
+.nickname{
+    display: flex;
+    flex:1.1;
+}
+
+.saleList{
+    padding : 1rem;
+    flex : 1;
+    display: flex;
+    border-bottom: 1px solid #aaaaaa;
+    height: 100%;
+    width: 100%;
+}
+
+.saleList img{
+    border-radius: 5px;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.saleList img{
+    border-radius: 5px;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.saleList p{
+    padding: 0.5rem;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+/* 버튼간격*/
+.productInfo{
+    flex:8;
+    padding : 5px;
+}
+
+.saleList button{
+    justify-content: right;
+    border-radius: 5px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: none;
+    
+}
+
+.chattingBody{
+    margin-top: 0.5rem;
+    height: 100%;
+    flex: 12;
+    overflow-y: scroll;
+}
+
+.chattingList{
+    width: 90%;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0.3;
+}
+
+.profile .user{
+    font-size: 10px;
+    margin-bottom: 0.2rem;
+}
+
+.profile .img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.message{
+    background: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0.5px;
+    padding : 10px;
+    margin-left: 10px;
+    overflow:hidden;
+    width:auto;
+
+}
+
+.sent .message{
+    background: #FF7E36;
+    color: white;
+
+}
+
+.receive .message{
+    background: lightgray;
+}
+
+.time {
+    font-size: 12px;
+    margin: 0 5px;
+}
+
+
+/* 입력폼 바텀 */
+.inputArea{
+    height: 100%;
+    flex: 0.8;
+    background: #508bfc;
+
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;;
+}
+
+.inputArea span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.1rem;
+    width: 90%;
+}
+
+.chattingInput{
+    height: 70%;
+    border: none;
+    border-radius: 30px;
+    flex : 8;
+    padding: 10px;
+
+}
+
+.sendButton{
+    margin-left: 10px;
+    flex: 1;
+    height: 100%;
+    color: white;
+}
+
+

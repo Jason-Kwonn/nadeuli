@@ -1,0 +1,54 @@
+/* 일요일 날짜: 빨간색 */
+.fc-day-sun a {
+    color: red;
+}
+
+.fc .fc-toolbar.fc-header-toolbar{
+    margin-bottom: 2px;
+    font-size: 13px;
+    padding: 3px;
+}
+.fc-prev-button .fc-button .fc-button-primary{
+    background-color: red;
+
+}
+/* 토요일 날짜: 파란색 */
+.fc-day-sat a {
+    color: blue;
+}
+.fc-daygrid-day-top {
+    height: auto;
+}
+
+
+.fc-daygrid-day-top {
+    padding: 0;
+}
+.fc-daygrid-day-number {
+    font-size: 12px;
+}
+/* CSS 파일이나 스타일 코드에 추가 */
+.title {
+    display: block; /* 또는 display: inline-block; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 5em; /* 최대 글자 수 */
+}
+
+.fc-day .fc-day-thu .fc-day-future .fc-daygrid-day {
+    height: 50px;
+}
+tbody tr {
+    height: 50px;
+}
+
+/* CSS 파일 또는 스타일 시트에 추가 */
+.custom-time-picker .react-time-picker__clear-button,
+.custom-time-picker .react-time-picker__clock-button {
+    display: none;
+}
+
+.custom-time-picker .react-time-picker__inputGroup__input {
+    width: 20%;
+}

@@ -1,0 +1,126 @@
+.topView {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    height: calc(100% - 160px);
+    overflow-y: scroll;
+}
+
+.midView {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  /* height: calc(100% - 160px); */
+  overflow-y: scroll;
+}
+
+.bottomView {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+}
+
+.Wrap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.TMenuBar {
+  border-bottom: 1px solid #DDDDDD;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  padding: 0 20px;
+  background-color: #ffffff; /* 배경색을 하얀색으로 설정 */
+  z-index: 999; /* 다른 요소 위에 표시되도록 z-index를 설정합니다. */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: top 0.3s;
+}
+
+.TMenuBar span, .TMenuBar p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.BMenuBar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.BMenuBox{
+    width: 50%;
+    height: 100%;
+    border: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.BMenuBox + .BMenuBox {
+    border-left: none;
+}
+
+.ContentsBox {
+    height : 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.MainListBox {
+    
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+/* CSS 스타일 */
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 24px; /* 검색 아이콘의 너비와 동일하게 설정 */
+    transition: width 0.3s, left 0.3s, border-radius 0.3s;
+  }
+  
+  .search-icon {
+    cursor: pointer;
+    transition: left 0.3s;
+  }
+  
+  .search-input {
+    position: absolute;
+    right: 60px; /* 검색 아이콘의 너비만큼 오른쪽에 위치 */
+    width: 0; /* 초기 너비는 0으로 설정 */
+    padding: 8px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 5px; /* 살짝 둥근 검색란 모서리 */
+  }
+  
+  /* 검색 아이콘 클릭 시 활성화 스타일 */
+  .search-container.active .search-icon {
+    left: 0; /* 검색 아이콘 클릭 시 왼쪽으로 이동하여 나타남 */
+  }
+  
+  .search-container.active .search-input {
+    width: 160px; /* 검색 창 활성화 시 너비를 늘림 */
+  }
+
+  /* 검색 아이콘 클릭 시 활성화 스타일 */
+.search-container.active .search-input {
+    background-color: #d2d1d1; /* 배경색을 투명으로 설정 */
+    width: 200px; /* 검색 창 활성화 시 너비를 늘림 */
+  }
+
+  
+  

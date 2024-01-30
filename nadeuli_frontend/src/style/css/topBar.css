@@ -1,0 +1,55 @@
+/* TopToolbar Styles */
+.top-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: white;
+  width: 100%;
+  padding-top: 100px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.location {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.search-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 200px; /* 검색창의 너비 설정 */
+}
+
+.search-input {
+  border: none;
+  border-bottom: 2px solid #ffffff; /* 검색창 하단의 테두리 스타일 설정 */
+  padding: 5px 30px 5px 10px; /* 내부 여백 설정 */
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+}
+
+.search-icon.clicked::before {
+  content: '\2713'; /* 체크 마크 아이콘 사용 (유니코드) */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #626262; /* 눌림 표시 색상 설정 */
+}
+
+/* 아이콘 클릭 시 검색창 나타나도록 설정 */
+.search-icon.clicked ~ .search-input {
+  display: block;
+  width: 200px; /* 확장된 검색창 너비 설정 */
+}
+
+

@@ -1,0 +1,75 @@
+/* DropdownMenu.css */
+.dropdown-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* 아이콘 스타일 */
+.dropdown-button .icon {
+  margin-right: 5px; /* 아이콘과 텍스트 사이의 간격을 조절합니다. */
+  font-size: 24px; /* 아이콘의 크기를 조절합니다. */
+}
+
+/* 아이콘 클릭 효과를 위한 가상 요소 */
+.dropdown-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1); /* 회색 배경색과 투명도를 조절합니다. */
+  border-radius: 20%; /* 둥근 사각형으로 만듭니다. */
+  opacity: 0; /* 초기에는 투명 상태로 시작합니다. */
+  pointer-events: none; /* 클릭 이벤트를 가로채지 않도록 합니다. */
+  transition: opacity 0.3s ease; /* 투명도 전환 애니메이션을 추가합니다. */
+}
+
+.dropdown-button:hover::before {
+  opacity: 10; /* 호버 상태에서 투명도를 증가시켜 클릭 효과를 만듭니다. */
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  min-width: 100px; /* 너비를 최소값으로 설정하여 내용에 따라 조절되도록 변경 */
+  white-space: nowrap; /* 텍스트가 줄바꿈 되지 않도록 설정 */
+}
+
+/* 텍스트 정렬을 가운데로 조절 */
+.dropdown-list li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  text-align: center; /* 텍스트를 가운데 정렬합니다. */
+}
+
+.dropdown-list li:last-child {
+  border-bottom: none;
+}
+
+.dropdown-list li:hover {
+  background-color: #f2f2f2;
+}
+
+.dropdown-list {
+  display: block;
+}
