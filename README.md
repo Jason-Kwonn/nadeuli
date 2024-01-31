@@ -20,6 +20,13 @@
 - 중고, 일반 상품 배달 서비스
 <br/>
 
+## 프로젝트 담당 업무
+- DB 관리자 : DDL, DML 스크립트 관리
+- 배달 서브시스템 담당
+- Kakao map, Kakao mobility API 를 활용한 다중 배달지 추천경로 기능 구현 외
+- 시연 영상 제작
+<br/>
+
 ## 프로젝트 결과물
 - [프로젝트 보고서](https://1drv.ms/b/s!AkmVE01PN9F6jHF4uuRNhO1Jt-bw?e=9kKajg)
   - 프로젝트 개요 : 시스템 개요, 업무 영역, 예상 효과, 기술적 고려사항, 개발 이력, Architectures
