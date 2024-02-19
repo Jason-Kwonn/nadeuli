@@ -21,10 +21,12 @@
 <br/>
 
 ## 프로젝트 담당 업무
-- DB 관리자 : DDL, DML 스크립트 관리
+- DB 관리자(DDL, DML 스크립트 관리)
 - 배달 서브시스템 담당
-- Kakao map, Kakao mobility API 를 활용한 다중 배달지 추천경로 기능 구현 외
+- Kakao map, Kakao mobility API 를 활용한 다중 배달지 추천 경로 기능
+- Node.js Cheerio 웹 크롤링(쿠팡) 을 통한 평균가 검색 기능
 - 시연 영상 제작
+
 <br/>
 
 ## 프로젝트 결과물
