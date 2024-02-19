@@ -48,3 +48,18 @@
 
 
 [<img src="https://github.com/Coalman96/nadeuli/assets/96984831/359297ce-d69c-4b90-829d-5cc5dbb53aab" alt="발표영상" style="zoom:50%;" />](https://youtu.be/sUVsJYrISaI?si=R-AKs90cHRfFlDP0)
+
+<hr/>
+
+# Stacks
+- Back end <br/>
+Java, Spring FrameWork, SpringSecurity, SpringCloud, SpringScheduler, WebClient, JavaMailSender, JUnit5, Json Web Token, JPA, Tomcat, Log4j2, AOP, Mockito, Oauth2, MapStruct, Node.js, MySQL, Redis, MongoDB, Socket.io, Mongoose, Express, Cheerio, Nginx
+
+- Front end <br/>
+HTML, CSS, JavaScript, Jquery, React, React-redux, React-router-dom, React-bootstrap, ReactDaumPostcode, Redux-persist, Axios, Socket.io-client, FullCalendar, Chart.js, Http Live Streaming
+
+- Naver Cloud & API <br/>
+VPC, Linux Server(ubuntu-20.04), Global DNS, Global Edge, Load Balancer, AutoScaling, Cloud DB for MongoDB, Cloud DB for MySQL, Cloud DB for Redis, Certificate Manager(SSL), Object Storage, Live Station, CoolSMS, PortOne, Kakao Login, Naver Login, KakaoMobility, KakaoMap, Geolocation
+
+- Tools & CI/CD <br/>
+Ncloud Kubernetes Service, GitDesktop, GitHub, IntelliJ, VSCode, Gradle, Jenkins, Docker, DockerHub, StarUML, Ovenapp, PrismLiveStudio, npm, Slack
